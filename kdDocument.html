@@ -1,6 +1,82 @@
 <html>
   <head>
     <title>KD Documents - Source Code</title>
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Sidebar styling */
+    aside {
+      width: 15%;
+      margin: 1%;
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the heading inside the sidebar */
+    h1 {
+      line-height: 1.6;
+      font-size: 24px;
+      color: #333;
+    }
+
+    /* Styling for the details section */
+    details {
+      margin-top: 15px;
+      position: relative;
+    }
+
+    /* Styling for the summary (the clickable text for the dropdown) */
+    summary {
+      font-size: 20px;
+      cursor: pointer;
+      color: #007BFF;
+      padding: 5px 0;
+    }
+
+    summary:hover {
+      color: #0056b3;
+    }
+
+    /* Styling for the unordered list (ul) */
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      display: none;
+    }
+
+    /* Show the ul when the details are open */
+    details[open] ul {
+      display: block;
+    }
+
+    /* Styling for the list items */
+    ul li {
+      margin-bottom: 10px; /* Adds space between list items */
+    }
+
+    /* Styling for the links inside the list items */
+    ul li a {
+      text-decoration: none;
+      color: #007BFF;
+      font-size: 16px;
+    }
+
+    ul li a:hover {
+      text-decoration: underline;
+    }
+
+    </style>
   </head>
   <body>
     <header>
@@ -13,9 +89,32 @@
       more about it
     </p>
   </div>
-    <div style="display: flex; justify-content: space-between">
-      <aside style="width: 10%; margin: 1% 1%">
-        <h1>HTML Tutorial</h1>
+    <div style="display: flex; justify-content: space-between; position: relative;">
+      <aside style="width:15%; margin: 1% 1%;">
+          <h1 style ="line-height: 1.6;">HTML Tutorial</h1>
+        <div>
+          <details>
+            <summary style="font-size: 20px;">
+              style
+            </summary>
+            <ul>
+              <li><a href="text-font-properties.html">Text and Font Properties</a></li>
+              <li><a href="background-properties.html">Background Properties</a></li>
+              <li><a href="box-model-properties.html">Box Model Properties</a></li>
+              <li><a href="positioning-layout-properties.html">Positioning and Layout Properties</a></li>
+              <li><a href="flexbox-grid-properties.html">Flexbox and Grid Properties</a></li>
+              <li><a href="visibility-opacity.html">Visibility and Opacity</a></li>
+              <li><a href="border-outline-properties.html">Border and Outline Properties</a></li>
+              <li><a href="animation-transition-properties.html">Animation and Transition Properties</a></li>
+              <li><a href="transform-properties.html">Transform Properties</a></li>
+              <li><a href="lists-tables.html">Lists and Tables</a></li>
+              <li><a href="cursor-pointer-properties.html">Cursor and Pointer Properties</a></li>
+              <li><a href="media-queries.html">Media Queries</a></li>
+            </ul>
+            
+            
+          </details>  
+        </div>
       </aside>
 
       <div
