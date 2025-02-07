@@ -1,12 +1,29 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>HTML</title>
+    <style>
+      code {
+        background: wheat;
+        color: #24241e;
+        border-radius: 3px;
+        padding: 0.1% 0.2%;
+      }
+
+      li {
+        background: #f5f0e2;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 7px;
+      }
+    </style>
   </head>
+
   <body>
     <h1 style="text-align: center; color: brown">KD Documents</h1>
     <h3>&lt; html &gt;</h3>
     <p>
-      The<code><b> &lt; html &gt;</b></code> tag signifies the root of an HTML
+      The <code><b> &lt; html &gt;</b></code> tag signifies the root of an HTML
       document, informing browsers that everything within it should be
       interpreted as HTML-coded information
     </p>
@@ -14,36 +31,46 @@
 
     <ol>
       <li>
-        <code><b>lang</b></code>
+        <b>lang</b>
         <p><span> to represent specify the language of documents</span></p>
+        <h5>Examples</h5>
+        
+        <ul type="disc">
+          <li>
+            <code>&lt; html lang="en" &gt;</code>
+            <p>specifies English as the language.</p>
+          </li>
+
+          <li>
+            <code>&lt; html lang="en-AU" &gt;</code>
+            <p>
+              specifies the language as English in Australia using country code
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <b>dir</b>
+        <p>
+          <span
+            >to represent the text direction of the content within the HTML
+            Document</span
+          >
+        </p>
         <h5>Examples</h5>
         <ul type="disc">
           <li>
-            &lt; html lang="en" &gt;
-           <p> <code>  specifies English as the language.</p></code>
+            <code>&lt; html dir="rtl" &gt;</code>
+            <p>Specifies that the text direction should be right-to-left</p>
           </li>
 
           <li>
-            &lt; html lang="en-AU" &gt;
-            <p> <code>specifies the language as English in Australia using country code</code> </p>
+            <code>&lt; html dir="ltr" &gt;</code>
+            <p>
+              Specifies that the text direction should be left-to-right(default)
+            </p>
           </li>
-          </ul>
-          </li>
-          <li>
-          <code><b>dir</b></code>
-          <p><span>to represent the text direction of the content within the HTML Document</span></p>
-          <h5>Examples</h5>
-          <ul type="disc">
-            <li>
-              &lt; html dir="rtl" &gt;
-              <p><code> Specifies that the text direction should be right-to-left</code></p>
-            </li>
-
-            <li>
-              &lt; html dir="ltr" &gt;
-              <p><code> Specifies that the text direction should be left-to-right(default)</code></p>
-            </li>
-          </ul>
+        </ul>
       </li>
     </ol>
   </body>
