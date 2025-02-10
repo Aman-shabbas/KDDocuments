@@ -1,7 +1,78 @@
 <html>
   <head>
     <title>KD Documents - Source Code</title>
-   
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* aside {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+        overflow: auto;
+        width: 15%;
+        margin: 1%;
+        background-color: #f4f4f4;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      } */
+
+      h1 {
+        line-height: 1.6;
+        font-size: 24px;
+        color: #333;
+      }
+
+      details {
+        margin-top: 15px;
+        position: relative;
+      }
+
+      summary {
+        font-size: 20px;
+        cursor: pointer;
+        color: #007bff;
+        padding: 5px 0;
+      }
+
+      summary:hover {
+        color: #0056b3;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        display: none;
+      }
+
+      details[open] ul {
+        display: block;
+      }
+
+      ul li {
+        margin-bottom: 10px; 
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 16px;
+      }
+
+      ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
@@ -99,120 +170,10 @@
     </code>
   </pre>
       </div>
-      <aside style="width: 15%; margin: 0%, 1%">
+      <aside style="width: 15%; margin: 0% ,1%">
         <h1>hi</h1>
       </aside>
     </div>
     <footer></footer>
   </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Document</title>
-  </head>
-  <body>
-    <div
-      style="
-        max-width: 80%;
-        margin: auto;
-        text-align: center;
-      "
-    >
-      <h1>Page title</h1>
-      <p style="font-size: 18px;">Description (if any)</p style="font-size: 18px;">
-    </div>
-    <table width="80%" style="margin: auto;">
-      <tr>
-
-      <td width="20%" style="background-color: rgb(134, 32, 71); padding: 0 8px">
-        <aside >
-          <h1 style="line-height: 1.6">HTML Tutorial</h1>
-        <div>
-          <details>
-            <summary style="font-size: 20px">style</summary>
-            <ul>
-              <li>
-                <a href="text-font-properties.html">Text and Font Properties</a>
-              </li>
-              <li>
-                <a href="background-properties.html">Background Properties</a>
-              </li>
-              <li>
-                <a href="box-model-properties.html">Box Model Properties</a>
-              </li>
-              <li>
-                <a href="positioning-layout-properties.html"
-                  >Positioning and Layout Properties</a
-                >
-              </li>
-              <li>
-                <a href="flexbox-grid-properties.html"
-                  >Flexbox and Grid Properties</a
-                >
-              </li>
-              <li>
-                <a href="visibility-opacity.html">Visibility and Opacity</a>
-              </li>
-              <li>
-                <a href="border-outline-properties.html"
-                  >Border and Outline Properties</a
-                >
-              </li>
-              <li>
-                <a href="animation-transition-properties.html"
-                  >Animation and Transition Properties</a
-                >
-              </li>
-              <li>
-                <a href="transform-properties.html">Transform Properties</a>
-              </li>
-              <li><a href="lists-tables.html">Lists and Tables</a></li>
-              <li>
-                <a href="cursor-pointer-properties.html"
-                  >Cursor and Pointer Properties</a
-                >
-              </li>
-              <li><a href="media-queries.html">Media Queries</a></li>
-            </ul>
-          </details>
-        </div>
-        </aside>
-      </td>
-
-
-      <td width="60%" style="padding: 0 8px; background-color: antiquewhite;">
-        <main>
-          <pre style="white-space: pre-wrap; overflow-wrap: break-word">
-            <code>
-              &lt;<a href="html_tag.html">html</a>&gt;
-        
-                &lt;<a href="head_tag.html">head</a>&gt;
-        
-                  &lt;<a href="title_tag.html">title</a>&gt;KD Document&lt;/<a href="title_tag.html">title</a>&gt;
-        
-                &lt;/<a href="head_tag.html">head</a>&gt;
-        
-                &lt;<a href="body_tag.html">body</a>&gt;
-        
-                  &lt;<a href="h1_tag.html">h1</a> style="text-align: center"&gt;KD Documents&lt;/<a href="h1_tag.html">h1</a>&gt;
-        
-                  &lt;p&gt; What you're seeing is the source of this web page. You can go through this and understand what all the tags are doing. Click on the tags to learn more about it
-                  &lt;/p&gt;
-                &lt;/<a href="body_tag.html">body</a>&gt;<br>
-              &lt;/<a href="html_tag.html">html</a>&gt;
-            </code>
-          </pre>
-        </main>
-      </td>
-
-
-      <td width="20%" style="background-color: rgb(156, 109, 40); padding: 0 8px;">
-        <aside ><h4>Right aside contents</h4></aside>
-      </td>
-
-      </tr>
-    </table>
-  </body>
-</html>
-
