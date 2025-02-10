@@ -14,21 +14,24 @@
       <h1>Page title</h1>
       <p style="font-size: 18px;">Description (if any)</p style="font-size: 18px;">
     </div>
-    <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        background-color: antiquewhite;
-        max-width: 80%;
-        margin: auto;
-      "
-    >
-      <div style="background-color: rgb(134, 32, 71); width: 15%; padding: 0 8px;"><h4>Left Aside contents</h4></div>
-      <div style="width: 70%; padding: 0 8px;">
-        <h4>main contents</h4>
-        
-      </div>
-      <div style="background-color: rgb(156, 109, 40); width: 15%; padding: 0 8px;"><h4>Right aside contents</h4></div>
-    </div>
+    <table width="80%" style="margin: auto;">
+      <tr>
+
+      <td width="20%" style="background-color: rgb(134, 32, 71); padding: 0 8px">
+        <aside ><h4>Left Aside contents</h4></aside>
+      </td>
+
+      <td width="60%" style="padding: 0 8px; background-color: antiquewhite;">
+        <main >
+          <h4>main contents</h4>  
+        </main>
+      </td>
+
+      <td width="20%" style="background-color: rgb(156, 109, 40); padding: 0 8px;">
+        <aside ><h4>Right aside contents</h4></aside>
+      </td>
+
+      </tr>
+    </table>
   </body>
 </html>
